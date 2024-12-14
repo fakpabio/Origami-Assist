@@ -6,7 +6,7 @@ import socket
 import pyttsx3
 
 # Initialize OpenAI client with API key
-client = OpenAI(api_key="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")
+client = OpenAI()
 engine = pyttsx3.init()
 
 def initialize_voice():
